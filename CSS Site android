@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: android ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+:root {
+    --cor0: rgb(61,218,131);
+    --cor1: rgb(47,168,102);
+    --cor2: rgba(61, 218, 132, 0.411);
+    --cor3: rgb(26,92,56);
+    --cor4: rgb(13, 48, 29);
+
+    --fontedestaque: 'Bebas Neue', cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(132,225,173);
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+main p {
+    margin: 15px 0px; /* top 15 right 0 bottom 15 left 0 
+    espaço do texto para as bordas*/
+    text-indent: 30px; /*aquele recuo no início do parágrafo*/
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+header {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, var(--cor0),var(--cor3));
+    padding-top: 2%;
+    padding-right: 0%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+
+header > h1 {
+    font-family: var(--fontedestaque);
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+header > p {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;  /*em tela cheia isso nem faz diferença, mas quando vc vai diminuindo, sem isso o texto fica colado nas bordas*/
+}
+
+nav {
+    background-color: var(--cor3);
+    padding-left: 10px;
+}
+
+nav > a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    transition-duration: .5s;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: rgba(61, 218, 132, 0.411);
+}
+main {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgb(95, 95, 95);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: auto;
+    margin-bottom: 30px; /*deixar um espaço para não ficar colado no rodapé*/
+    max-width: 800px;
+    min-width: 300px;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.fotoandroid {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+h2{
+    color: rgb(13, 48, 29);
+    font-family: android;
+}
+
+.h3 {
+    color: rgb(13, 48, 29);
+    background-image: linear-gradient(to right, rgb(132,225,173), rgb(255, 255, 255) );
+    font-family: android;
+}
+
+div.video {
+    background-color: rgb(26,92,56);
+    padding: 20px;
+    margin-right: -20px;
+    margin-left: -20px;
+    padding-bottom: 50%;
+    position: relative;
+    
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+aside h3 {
+    background-color: var(--cor3);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    margin-left: -10px;
+}
+
+aside {
+    background-color: rgb(197,235,214);
+    box-shadow: 0px 0px 5px rgb(126, 126, 126);
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+aside p {
+    margin: 10px;
+}
+
+aside ul {
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0'; /*marcador da lista, e o 00A0 é pra dar espaço*/
+    
+}
+
+footer {
+    color: white;
+    background-color: rgb(26,92,56);
+    text-align: center;
+    padding: 10px;
+    font-size: .9em;
+}
