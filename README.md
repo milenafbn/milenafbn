@@ -1,7 +1,7 @@
 ### Hi!! I'm Milena Neves
 
 - 🔭 I’m currently working on projects involving web development using Laravel at the Secretaria de Estado da Saúde (SES-MA), and I'm also engaged in my thesis project using Flutter for mobile development.
-- 🌱  I’m currently learning to enhance my skills in Laravel and Flutter, seeking to explore new functionalities in both technologies.
+- 🌱  I’m currently learning to enhance my skills in Java and Python, seeking to explore new functionalities in both technologies.
 - 👯 I’m looking to collaborate on open-source projects related to web or mobile technologies, where I can contribute with my knowledge, while also learning from other developers and expanding my experience in collaborative development.
 - 😄 Pronouns: She/her
 - ⚡ Fun fact:  I'm learning to play the piano in my spare time.
