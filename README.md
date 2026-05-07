@@ -46,6 +46,25 @@ I work mainly with **full-stack development**, building scalable systems using m
 
 ---
 
+### 📈 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=milenafbn&theme=dracula" />
+  <img height="180em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=milenafbn&theme=dracula" />
+</div>
+
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=milenafbn&theme=dracula"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/milenafbn/milenafbn/output/github-snake-dark.svg" alt="Snake animation" />
+</p> 
+
+<!-- <p align="center">
+  <img src="https://raw.githubusercontent.com/milenafbn/milenafbn/output/ocean.gif" alt="Snake animation" />
+</p> -->
+
 <h3>Where to find me</h3>
 
 <p>
@@ -66,14 +85,3 @@ I work mainly with **full-stack development**, building scalable systems using m
   </a>
 </p>
 
-<div align="center">
-  <img height="180em" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=milenafbn&theme=dracula" />
-  <img height="180em" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=milenafbn&theme=dracula" />
-</div>
-
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=milenafbn&theme=dracula"/>
-</p>
-
-
-![Snake animation](https://github.com/milenafbn/milenafbn/blob/output/github-contribution-grid-snake.svg)
